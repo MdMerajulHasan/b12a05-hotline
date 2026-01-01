@@ -1,15 +1,16 @@
-1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
-    Answer: getElementById select the element with given id in "" or '' where getElementByClassName select the part of elements under the given classname in "" or ''. On the other hand querySelector need # before id name in "" or '' to select the element and querySelectorAll selects all of the part having the class name.
+Overview: A website where people find hotline numbers and calling the numbers.
 
-2. How do you create and insert a new element into the DOM?
-    Answer: using document.createElement() method I create an element and use parentName.appendChild(childName) to insert it.
+Live Link: https://mdmerajulhasan.github.io/b12a05-hotline/
 
-3. What is Event Bubbling and how does it work?
-    Answer: Event bubbling is a mechanism in the DOM where a element trigger and the event goes to parent and grandparents also to trigger that event. It goes up to root and all element trigger if they has that event listener.
+Technologies: Javascript DOM, Tailwind
 
-4. What is Event Delegation in JavaScript? Why is it useful?
-    Answer: It is a technique to add single event listener to a common parent element. It will not be attached to separate listeners to many child elements. 
+Core features: Copy Hotline Number, Call Hotline Number, Check calling history.
 
-5. What is the difference between preventDefault() and stopPropagation() methods?
-    Answer: a. preventDefault() prevents browser's default actions but stopPropagation prevents event's propagation like bubbling and capturing.
-    b. preventDefault() is used to override standard browser behavior but stopPropagation() used to prevent an event on a child element form affecting its parent elements.
+Dependencies: Tailwind.
+
+Step-by-step guide on how to run the project locally: 1. clone the project
+                                                      2. open with vs code
+                                                      3. command: npm i
+                                                      4. npm run dev
+
+Screenshot: <img width="1351" height="629" alt="image" src="https://github.com/user-attachments/assets/bcc9e49a-96fe-401f-a47e-2d845be9a272" />
